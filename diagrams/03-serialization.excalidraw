@@ -24,8 +24,14 @@
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-start" },
-        { "type": "arrow", "id": "arrow-l-start-to-func" }
+        {
+          "type": "text",
+          "id": "text-l-start"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-start-to-func"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -51,7 +57,7 @@
       "seed": 200001,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -80,14 +86,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100002,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-func" },
-        { "type": "arrow", "id": "arrow-l-start-to-func" },
-        { "type": "arrow", "id": "arrow-l-func-to-dispatch" }
+        {
+          "type": "text",
+          "id": "text-l-func"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-start-to-func"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-func-to-dispatch"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -113,7 +130,7 @@
       "seed": 200002,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -142,15 +159,29 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100003,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-dispatch" },
-        { "type": "arrow", "id": "arrow-l-func-to-dispatch" },
-        { "type": "arrow", "id": "arrow-l-dispatch-to-nomatch" },
-        { "type": "arrow", "id": "arrow-l-dispatch-to-l0" }
+        {
+          "type": "text",
+          "id": "text-l-dispatch"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-func-to-dispatch"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-dispatch-to-nomatch"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-dispatch-to-l0"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -176,7 +207,7 @@
       "seed": 200003,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -205,13 +236,21 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100004,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-nomatch" },
-        { "type": "arrow", "id": "arrow-l-dispatch-to-nomatch" }
+        {
+          "type": "text",
+          "id": "text-l-nomatch"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-dispatch-to-nomatch"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -237,7 +276,7 @@
       "seed": 200004,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -270,7 +309,7 @@
       "seed": 200005,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -299,14 +338,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100005,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-l0" },
-        { "type": "arrow", "id": "arrow-l-dispatch-to-l0" },
-        { "type": "arrow", "id": "arrow-l-l0-to-l1" }
+        {
+          "type": "text",
+          "id": "text-l-l0"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-dispatch-to-l0"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l0-to-l1"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -332,7 +382,7 @@
       "seed": 200006,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -361,14 +411,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100006,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-l1" },
-        { "type": "arrow", "id": "arrow-l-l0-to-l1" },
-        { "type": "arrow", "id": "arrow-l-l1-to-l2" }
+        {
+          "type": "text",
+          "id": "text-l-l1"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l0-to-l1"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l1-to-l2"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -394,7 +455,7 @@
       "seed": 200007,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -423,14 +484,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100007,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-l2" },
-        { "type": "arrow", "id": "arrow-l-l1-to-l2" },
-        { "type": "arrow", "id": "arrow-l-l2-to-l3" }
+        {
+          "type": "text",
+          "id": "text-l-l2"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l1-to-l2"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l2-to-l3"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -456,7 +528,7 @@
       "seed": 200008,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -485,14 +557,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100008,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-l3" },
-        { "type": "arrow", "id": "arrow-l-l2-to-l3" },
-        { "type": "arrow", "id": "arrow-l-l3-to-l4" }
+        {
+          "type": "text",
+          "id": "text-l-l3"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l2-to-l3"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l3-to-l4"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -518,7 +601,7 @@
       "seed": 200009,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -547,14 +630,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100009,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-l4" },
-        { "type": "arrow", "id": "arrow-l-l3-to-l4" },
-        { "type": "arrow", "id": "arrow-l-l4-to-l5" }
+        {
+          "type": "text",
+          "id": "text-l-l4"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l3-to-l4"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l4-to-l5"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -580,7 +674,7 @@
       "seed": 200010,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -609,14 +703,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100010,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-l5" },
-        { "type": "arrow", "id": "arrow-l-l4-to-l5" },
-        { "type": "arrow", "id": "arrow-l-l5-to-l6" }
+        {
+          "type": "text",
+          "id": "text-l-l5"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l4-to-l5"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l5-to-l6"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -642,7 +747,7 @@
       "seed": 200011,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -671,14 +776,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100011,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-l6" },
-        { "type": "arrow", "id": "arrow-l-l5-to-l6" },
-        { "type": "arrow", "id": "arrow-l-l6-to-l7" }
+        {
+          "type": "text",
+          "id": "text-l-l6"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l5-to-l6"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l6-to-l7"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -704,7 +820,7 @@
       "seed": 200012,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -733,14 +849,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100012,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-l7" },
-        { "type": "arrow", "id": "arrow-l-l6-to-l7" },
-        { "type": "arrow", "id": "arrow-l-l7-to-l8" }
+        {
+          "type": "text",
+          "id": "text-l-l7"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l6-to-l7"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l7-to-l8"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -766,7 +893,7 @@
       "seed": 200013,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -795,14 +922,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100013,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-l8" },
-        { "type": "arrow", "id": "arrow-l-l7-to-l8" },
-        { "type": "arrow", "id": "arrow-l-l8-to-l9" }
+        {
+          "type": "text",
+          "id": "text-l-l8"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l7-to-l8"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l8-to-l9"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -828,7 +966,7 @@
       "seed": 200014,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -857,13 +995,21 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100014,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-l-l9" },
-        { "type": "arrow", "id": "arrow-l-l8-to-l9" }
+        {
+          "type": "text",
+          "id": "text-l-l9"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-l-l8-to-l9"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -889,7 +1035,7 @@
       "seed": 200015,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -923,8 +1069,14 @@
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-c-start" },
-        { "type": "arrow", "id": "arrow-c-start-to-apply" }
+        {
+          "type": "text",
+          "id": "text-c-start"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-start-to-apply"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -950,7 +1102,7 @@
       "seed": 200016,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -979,14 +1131,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100016,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-c-apply" },
-        { "type": "arrow", "id": "arrow-c-start-to-apply" },
-        { "type": "arrow", "id": "arrow-c-apply-to-typeid" }
+        {
+          "type": "text",
+          "id": "text-c-apply"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-start-to-apply"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-apply-to-typeid"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1012,7 +1175,7 @@
       "seed": 200017,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1041,14 +1204,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100017,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-c-typeid" },
-        { "type": "arrow", "id": "arrow-c-apply-to-typeid" },
-        { "type": "arrow", "id": "arrow-c-typeid-to-size" }
+        {
+          "type": "text",
+          "id": "text-c-typeid"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-apply-to-typeid"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-typeid-to-size"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1074,7 +1248,7 @@
       "seed": 200018,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1103,15 +1277,29 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100018,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-c-size" },
-        { "type": "arrow", "id": "arrow-c-typeid-to-size" },
-        { "type": "arrow", "id": "arrow-c-size-to-soo" },
-        { "type": "arrow", "id": "arrow-c-size-to-payload" }
+        {
+          "type": "text",
+          "id": "text-c-size"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-typeid-to-size"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-size-to-soo"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-size-to-payload"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1137,7 +1325,7 @@
       "seed": 200019,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1166,14 +1354,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100019,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-c-soo" },
-        { "type": "arrow", "id": "arrow-c-size-to-soo" },
-        { "type": "arrow", "id": "arrow-c-soo-to-return" }
+        {
+          "type": "text",
+          "id": "text-c-soo"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-size-to-soo"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-soo-to-return"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1199,7 +1398,7 @@
       "seed": 200020,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1228,14 +1427,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100020,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-c-payload" },
-        { "type": "arrow", "id": "arrow-c-size-to-payload" },
-        { "type": "arrow", "id": "arrow-c-payload-to-return" }
+        {
+          "type": "text",
+          "id": "text-c-payload"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-size-to-payload"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-payload-to-return"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1261,7 +1471,7 @@
       "seed": 200021,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1290,14 +1500,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100021,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-c-return" },
-        { "type": "arrow", "id": "arrow-c-soo-to-return" },
-        { "type": "arrow", "id": "arrow-c-payload-to-return" }
+        {
+          "type": "text",
+          "id": "text-c-return"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-soo-to-return"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-c-payload-to-return"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1323,7 +1544,7 @@
       "seed": 200022,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1357,8 +1578,14 @@
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-r-start" },
-        { "type": "arrow", "id": "arrow-r-start-to-apply" }
+        {
+          "type": "text",
+          "id": "text-r-start"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-r-start-to-apply"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1384,7 +1611,7 @@
       "seed": 200023,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1413,14 +1640,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100023,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-r-apply" },
-        { "type": "arrow", "id": "arrow-r-start-to-apply" },
-        { "type": "arrow", "id": "arrow-r-apply-to-typeid" }
+        {
+          "type": "text",
+          "id": "text-r-apply"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-r-start-to-apply"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-r-apply-to-typeid"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1446,7 +1684,7 @@
       "seed": 200024,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1475,14 +1713,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100024,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-r-typeid" },
-        { "type": "arrow", "id": "arrow-r-apply-to-typeid" },
-        { "type": "arrow", "id": "arrow-r-typeid-to-registered" }
+        {
+          "type": "text",
+          "id": "text-r-typeid"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-r-apply-to-typeid"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-r-typeid-to-registered"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1508,7 +1757,7 @@
       "seed": 200025,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1537,15 +1786,29 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100025,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-r-registered" },
-        { "type": "arrow", "id": "arrow-r-typeid-to-registered" },
-        { "type": "arrow", "id": "arrow-r-registered-to-error" },
-        { "type": "arrow", "id": "arrow-r-registered-to-found" }
+        {
+          "type": "text",
+          "id": "text-r-registered"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-r-typeid-to-registered"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-r-registered-to-error"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-r-registered-to-found"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1571,7 +1834,7 @@
       "seed": 200026,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1600,13 +1863,21 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100026,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-r-error" },
-        { "type": "arrow", "id": "arrow-r-registered-to-error" }
+        {
+          "type": "text",
+          "id": "text-r-error"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-r-registered-to-error"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1632,7 +1903,7 @@
       "seed": 200027,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1661,13 +1932,21 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100027,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-r-found" },
-        { "type": "arrow", "id": "arrow-r-registered-to-found" }
+        {
+          "type": "text",
+          "id": "text-r-found"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-r-registered-to-found"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1693,7 +1972,7 @@
       "seed": 200028,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1727,8 +2006,14 @@
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-b-start" },
-        { "type": "arrow", "id": "arrow-b-start-to-assign" }
+        {
+          "type": "text",
+          "id": "text-b-start"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-b-start-to-assign"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1754,7 +2039,7 @@
       "seed": 200029,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1783,14 +2068,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100029,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-b-assign" },
-        { "type": "arrow", "id": "arrow-b-start-to-assign" },
-        { "type": "arrow", "id": "arrow-b-assign-to-register" }
+        {
+          "type": "text",
+          "id": "text-b-assign"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-b-start-to-assign"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-b-assign-to-register"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1816,7 +2112,7 @@
       "seed": 200030,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1845,14 +2141,25 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100030,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-b-register" },
-        { "type": "arrow", "id": "arrow-b-assign-to-register" },
-        { "type": "arrow", "id": "arrow-b-register-to-return" }
+        {
+          "type": "text",
+          "id": "text-b-register"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-b-assign-to-register"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-b-register-to-return"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1878,7 +2185,7 @@
       "seed": 200031,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1907,13 +2214,21 @@
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 100031,
       "version": 1,
       "isDeleted": false,
       "boundElements": [
-        { "type": "text", "id": "text-b-return" },
-        { "type": "arrow", "id": "arrow-b-register-to-return" }
+        {
+          "type": "text",
+          "id": "text-b-return"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-b-register-to-return"
+        }
       ],
       "updated": 1,
       "link": null,
@@ -1939,7 +2254,7 @@
       "seed": 200032,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
@@ -1972,13 +2287,30 @@
       "seed": 300001,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 35]],
-      "startBinding": { "elementId": "ellipse-l-start", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-l-func", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          35
+        ]
+      ],
+      "startBinding": {
+        "elementId": "ellipse-l-start",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-l-func",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2002,13 +2334,30 @@
       "seed": 300002,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 45]],
-      "startBinding": { "elementId": "rect-l-func", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "diamond-l-dispatch", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          45
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-l-func",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "diamond-l-dispatch",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2032,13 +2381,30 @@
       "seed": 300003,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [75, 0]],
-      "startBinding": { "elementId": "diamond-l-dispatch", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-l-nomatch", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          75,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "diamond-l-dispatch",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-l-nomatch",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2062,13 +2428,30 @@
       "seed": 300004,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 40]],
-      "startBinding": { "elementId": "diamond-l-dispatch", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-l-l0", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "startBinding": {
+        "elementId": "diamond-l-dispatch",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-l-l0",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2092,13 +2475,30 @@
       "seed": 300005,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 9]],
-      "startBinding": { "elementId": "rect-l-l0", "focus": 0, "gap": 3 },
-      "endBinding": { "elementId": "rect-l-l1", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          9
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-l-l0",
+        "focus": 0,
+        "gap": 3
+      },
+      "endBinding": {
+        "elementId": "rect-l-l1",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2122,13 +2522,30 @@
       "seed": 300006,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 9]],
-      "startBinding": { "elementId": "rect-l-l1", "focus": 0, "gap": 3 },
-      "endBinding": { "elementId": "rect-l-l2", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          9
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-l-l1",
+        "focus": 0,
+        "gap": 3
+      },
+      "endBinding": {
+        "elementId": "rect-l-l2",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2152,13 +2569,30 @@
       "seed": 300007,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 9]],
-      "startBinding": { "elementId": "rect-l-l2", "focus": 0, "gap": 3 },
-      "endBinding": { "elementId": "rect-l-l3", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          9
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-l-l2",
+        "focus": 0,
+        "gap": 3
+      },
+      "endBinding": {
+        "elementId": "rect-l-l3",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2182,13 +2616,30 @@
       "seed": 300008,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 9]],
-      "startBinding": { "elementId": "rect-l-l3", "focus": 0, "gap": 3 },
-      "endBinding": { "elementId": "rect-l-l4", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          9
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-l-l3",
+        "focus": 0,
+        "gap": 3
+      },
+      "endBinding": {
+        "elementId": "rect-l-l4",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2212,13 +2663,30 @@
       "seed": 300009,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 9]],
-      "startBinding": { "elementId": "rect-l-l4", "focus": 0, "gap": 3 },
-      "endBinding": { "elementId": "rect-l-l5", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          9
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-l-l4",
+        "focus": 0,
+        "gap": 3
+      },
+      "endBinding": {
+        "elementId": "rect-l-l5",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2242,13 +2710,30 @@
       "seed": 300010,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 9]],
-      "startBinding": { "elementId": "rect-l-l5", "focus": 0, "gap": 3 },
-      "endBinding": { "elementId": "rect-l-l6", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          9
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-l-l5",
+        "focus": 0,
+        "gap": 3
+      },
+      "endBinding": {
+        "elementId": "rect-l-l6",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2272,13 +2757,30 @@
       "seed": 300011,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 9]],
-      "startBinding": { "elementId": "rect-l-l6", "focus": 0, "gap": 3 },
-      "endBinding": { "elementId": "rect-l-l7", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          9
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-l-l6",
+        "focus": 0,
+        "gap": 3
+      },
+      "endBinding": {
+        "elementId": "rect-l-l7",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2302,13 +2804,30 @@
       "seed": 300012,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 9]],
-      "startBinding": { "elementId": "rect-l-l7", "focus": 0, "gap": 3 },
-      "endBinding": { "elementId": "rect-l-l8", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          9
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-l-l7",
+        "focus": 0,
+        "gap": 3
+      },
+      "endBinding": {
+        "elementId": "rect-l-l8",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2332,13 +2851,30 @@
       "seed": 300013,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 9]],
-      "startBinding": { "elementId": "rect-l-l8", "focus": 0, "gap": 3 },
-      "endBinding": { "elementId": "rect-l-l9", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          9
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-l-l8",
+        "focus": 0,
+        "gap": 3
+      },
+      "endBinding": {
+        "elementId": "rect-l-l9",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2362,13 +2898,30 @@
       "seed": 300014,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 35]],
-      "startBinding": { "elementId": "ellipse-c-start", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-c-apply", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          35
+        ]
+      ],
+      "startBinding": {
+        "elementId": "ellipse-c-start",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-c-apply",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2392,13 +2945,30 @@
       "seed": 300015,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 35]],
-      "startBinding": { "elementId": "rect-c-apply", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-c-typeid", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          35
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-c-apply",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-c-typeid",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2422,13 +2992,30 @@
       "seed": 300016,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 45]],
-      "startBinding": { "elementId": "rect-c-typeid", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "diamond-c-size", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          45
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-c-typeid",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "diamond-c-size",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2452,13 +3039,30 @@
       "seed": 300017,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [35, 0]],
-      "startBinding": { "elementId": "diamond-c-size", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-c-soo", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          35,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "diamond-c-size",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-c-soo",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2482,13 +3086,30 @@
       "seed": 300018,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 45]],
-      "startBinding": { "elementId": "diamond-c-size", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-c-payload", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          45
+        ]
+      ],
+      "startBinding": {
+        "elementId": "diamond-c-size",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-c-payload",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2512,13 +3133,30 @@
       "seed": 300019,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 45]],
-      "startBinding": { "elementId": "rect-c-payload", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-c-return", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          45
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-c-payload",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-c-return",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2542,13 +3180,38 @@
       "seed": 300020,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 155], [-200, 155], [-200, 205]],
-      "startBinding": { "elementId": "rect-c-soo", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-c-return", "focus": 1.0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          155
+        ],
+        [
+          -200,
+          155
+        ],
+        [
+          -200,
+          205
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-c-soo",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-c-return",
+        "focus": 1.0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2572,13 +3235,30 @@
       "seed": 300021,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 35]],
-      "startBinding": { "elementId": "ellipse-r-start", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-r-apply", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          35
+        ]
+      ],
+      "startBinding": {
+        "elementId": "ellipse-r-start",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-r-apply",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2602,13 +3282,30 @@
       "seed": 300022,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 35]],
-      "startBinding": { "elementId": "rect-r-apply", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-r-typeid", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          35
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-r-apply",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-r-typeid",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2632,13 +3329,30 @@
       "seed": 300023,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 45]],
-      "startBinding": { "elementId": "rect-r-typeid", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "diamond-r-registered", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          45
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-r-typeid",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "diamond-r-registered",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2662,13 +3376,30 @@
       "seed": 300024,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [45, 0]],
-      "startBinding": { "elementId": "diamond-r-registered", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-r-error", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          45,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "diamond-r-registered",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-r-error",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2692,13 +3423,30 @@
       "seed": 300025,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 45]],
-      "startBinding": { "elementId": "diamond-r-registered", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-r-found", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          45
+        ]
+      ],
+      "startBinding": {
+        "elementId": "diamond-r-registered",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-r-found",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2722,13 +3470,30 @@
       "seed": 300026,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 35]],
-      "startBinding": { "elementId": "ellipse-b-start", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-b-assign", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          35
+        ]
+      ],
+      "startBinding": {
+        "elementId": "ellipse-b-start",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-b-assign",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2752,13 +3517,30 @@
       "seed": 300027,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 35]],
-      "startBinding": { "elementId": "rect-b-assign", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-b-register", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          35
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-b-assign",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-b-register",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -2782,20 +3564,39 @@
       "seed": 300028,
       "version": 1,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1,
       "link": null,
       "locked": false,
-      "points": [[0, 0], [0, 35]],
-      "startBinding": { "elementId": "rect-b-register", "focus": 0, "gap": 5 },
-      "endBinding": { "elementId": "rect-b-return", "focus": 0, "gap": 5 },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          35
+        ]
+      ],
+      "startBinding": {
+        "elementId": "rect-b-register",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "rect-b-return",
+        "focus": 0,
+        "gap": 5
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow"
     }
   ],
   "appState": {
     "gridSize": 20,
-    "viewBackgroundColor": "#ffffff"
+    "viewBackgroundColor": "#ffffff",
+    "theme": "light",
+    "currentItemFontFamily": 1
   },
   "files": {}
 }

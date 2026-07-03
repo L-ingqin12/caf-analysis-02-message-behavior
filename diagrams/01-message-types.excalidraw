@@ -25,7 +25,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 15191,
+      "version": 1
     },
     {
       "id": "text-typeid-list",
@@ -54,7 +56,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-typeid-list",
-      "originalText": "type_id_list"
+      "originalText": "type_id_list",
+      "seed": 91602,
+      "version": 1
     },
     {
       "id": "rect-typeid-data",
@@ -78,7 +82,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 58289,
+      "version": 1
     },
     {
       "id": "text-typeid-data",
@@ -107,7 +113,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-typeid-data",
-      "originalText": "data_ -> | size (uint16_t) | type_id_1 | type_id_2 | ... |"
+      "originalText": "data_ -> | size (uint16_t) | type_id_1 | type_id_2 | ... |",
+      "seed": 87177,
+      "version": 1
     },
     {
       "id": "rect-typeid-t",
@@ -131,7 +139,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 82943,
+      "version": 1
     },
     {
       "id": "text-typeid-t",
@@ -160,7 +170,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-typeid-t",
-      "originalText": "type_id_t = uint16_t\n(globally unique per type)"
+      "originalText": "type_id_t = uint16_t\n(globally unique per type)",
+      "seed": 81736,
+      "version": 1
     },
     {
       "id": "rect-add-type-id",
@@ -184,7 +196,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 51129,
+      "version": 1
     },
     {
       "id": "text-add-type-id",
@@ -213,7 +227,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-add-type-id",
-      "originalText": "CAF_ADD_TYPE_ID macro\n-> __COUNTER__ allocation\n-> global unique ID"
+      "originalText": "CAF_ADD_TYPE_ID macro\n-> __COUNTER__ allocation\n-> global unique ID",
+      "seed": 94627,
+      "version": 1
     },
     {
       "id": "rect-typed-view",
@@ -237,7 +253,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 34541,
+      "version": 1
     },
     {
       "id": "text-typed-view",
@@ -266,7 +284,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-typed-view",
-      "originalText": "const_typed_message_view\ncompile-time safe wrapper\non type-erased message"
+      "originalText": "const_typed_message_view\ncompile-time safe wrapper\non type-erased message",
+      "seed": 19906,
+      "version": 1
     },
     {
       "id": "rect-msg-object",
@@ -290,7 +310,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 89376,
+      "version": 1
     },
     {
       "id": "text-msg-object",
@@ -319,7 +341,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-msg-object",
-      "originalText": "message object"
+      "originalText": "message object",
+      "seed": 34424,
+      "version": 1
     },
     {
       "id": "rect-data-ptr",
@@ -343,7 +367,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 8961,
+      "version": 1
     },
     {
       "id": "text-data-ptr",
@@ -372,7 +398,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-data-ptr",
-      "originalText": "data_ptr\n(intrusive_cow_ptr<message_data>)"
+      "originalText": "data_ptr\n(intrusive_cow_ptr<message_data>)",
+      "seed": 94035,
+      "version": 1
     },
     {
       "id": "arrow-msg-to-data",
@@ -418,7 +446,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 89834,
+      "version": 1
     },
     {
       "id": "rect-msg-data",
@@ -442,7 +472,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 23912,
+      "version": 1
     },
     {
       "id": "text-msg-data",
@@ -471,7 +503,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-msg-data",
-      "originalText": "message_data memory block"
+      "originalText": "message_data memory block",
+      "seed": 12123,
+      "version": 1
     },
     {
       "id": "rect-refcount",
@@ -495,7 +529,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 6431,
+      "version": 1
     },
     {
       "id": "text-refcount",
@@ -524,7 +560,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-refcount",
-      "originalText": "ref_count_ (atomic)"
+      "originalText": "ref_count_ (atomic)",
+      "seed": 2580,
+      "version": 1
     },
     {
       "id": "rect-types-field",
@@ -548,7 +586,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 92724,
+      "version": 1
     },
     {
       "id": "text-types-field",
@@ -577,7 +617,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-types-field",
-      "originalText": "types_ (type_id_list)"
+      "originalText": "types_ (type_id_list)",
+      "seed": 56107,
+      "version": 1
     },
     {
       "id": "rect-constructed",
@@ -601,7 +643,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 75112,
+      "version": 1
     },
     {
       "id": "text-constructed",
@@ -630,7 +674,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-constructed",
-      "originalText": "constructed_elements_ (size_t)"
+      "originalText": "constructed_elements_ (size_t)",
+      "seed": 70212,
+      "version": 1
     },
     {
       "id": "rect-storage",
@@ -654,7 +700,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 51445,
+      "version": 1
     },
     {
       "id": "text-storage",
@@ -683,7 +731,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-storage",
-      "originalText": "storage_[] (flexible array)"
+      "originalText": "storage_[] (flexible array)",
+      "seed": 14928,
+      "version": 1
     },
     {
       "id": "rect-elements",
@@ -707,7 +757,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 98981,
+      "version": 1
     },
     {
       "id": "text-elements",
@@ -736,7 +788,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-elements",
-      "originalText": "elem0 (padded_size) | elem1 (padded_size) | ..."
+      "originalText": "elem0 (padded_size) | elem1 (padded_size) | ...",
+      "seed": 26823,
+      "version": 1
     },
     {
       "id": "arrow-types-to-typeid",
@@ -789,7 +843,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 24052,
+      "version": 1
     },
     {
       "id": "arrow-typeid-to-typeidt",
@@ -842,7 +898,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 52778,
+      "version": 1
     },
     {
       "id": "arrow-typeid-to-add",
@@ -895,7 +953,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 37689,
+      "version": 1
     },
     {
       "id": "rect-make-msg",
@@ -919,7 +979,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 32137,
+      "version": 1
     },
     {
       "id": "text-make-msg",
@@ -948,7 +1010,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-make-msg",
-      "originalText": "message construction:\nmake_message(xs...)"
+      "originalText": "message construction:\nmake_message(xs...)",
+      "seed": 50533,
+      "version": 1
     },
     {
       "id": "arrow-make-to-malloc",
@@ -994,7 +1058,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 25791,
+      "version": 1
     },
     {
       "id": "rect-malloc",
@@ -1018,7 +1084,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 17578,
+      "version": 1
     },
     {
       "id": "text-malloc",
@@ -1047,7 +1115,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-malloc",
-      "originalText": "malloc(data_size)"
+      "originalText": "malloc(data_size)",
+      "seed": 69116,
+      "version": 1
     },
     {
       "id": "arrow-malloc-to-place",
@@ -1093,7 +1163,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 18599,
+      "version": 1
     },
     {
       "id": "rect-placement-new",
@@ -1117,7 +1189,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 39467,
+      "version": 1
     },
     {
       "id": "text-placement",
@@ -1146,7 +1220,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-placement-new",
-      "originalText": "placement new\nmessage_data(types)"
+      "originalText": "placement new\nmessage_data(types)",
+      "seed": 36561,
+      "version": 1
     },
     {
       "id": "arrow-place-to-init",
@@ -1192,7 +1268,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 14412,
+      "version": 1
     },
     {
       "id": "rect-init",
@@ -1216,7 +1294,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 91272,
+      "version": 1
     },
     {
       "id": "text-init",
@@ -1245,7 +1325,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-init",
-      "originalText": "init() -> placement new\neach element in storage_"
+      "originalText": "init() -> placement new\neach element in storage_",
+      "seed": 4044,
+      "version": 1
     },
     {
       "id": "arrow-init-to-return",
@@ -1291,7 +1373,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 20155,
+      "version": 1
     },
     {
       "id": "rect-return-msg",
@@ -1315,7 +1399,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 42542,
+      "version": 1
     },
     {
       "id": "text-return",
@@ -1344,7 +1430,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "rect-return-msg",
-      "originalText": "Return message{data_ptr}"
+      "originalText": "Return message{data_ptr}",
+      "seed": 63769,
+      "version": 1
     },
     {
       "id": "arrow-return-to-typed",
@@ -1401,12 +1489,16 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 29107,
+      "version": 1
     }
   ],
   "appState": {
     "gridSize": 20,
-    "viewBackgroundColor": "#ffffff"
+    "viewBackgroundColor": "#ffffff",
+    "theme": "light",
+    "currentItemFontFamily": 1
   },
   "files": {}
 }

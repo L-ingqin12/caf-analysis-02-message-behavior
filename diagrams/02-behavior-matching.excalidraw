@@ -25,7 +25,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 54339,
+      "version": 1
     },
     {
       "id": "tx-recv",
@@ -54,7 +56,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-recv",
-      "originalText": "Actor receives message"
+      "originalText": "Actor receives message",
+      "seed": 69621,
+      "version": 1
     },
     {
       "id": "el-has-behavior",
@@ -78,7 +82,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 8117,
+      "version": 1
     },
     {
       "id": "tx-has-behavior",
@@ -107,7 +113,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-has-behavior",
-      "originalText": "Has installed behavior?"
+      "originalText": "Has installed behavior?",
+      "seed": 24968,
+      "version": 1
     },
     {
       "id": "el-default-behavior",
@@ -131,7 +139,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 49758,
+      "version": 1
     },
     {
       "id": "tx-default-behavior",
@@ -160,7 +170,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-default-behavior",
-      "originalText": "Use default behavior\n(wait for messages)"
+      "originalText": "Use default behavior\n(wait for messages)",
+      "seed": 65461,
+      "version": 1
     },
     {
       "id": "ar-recv-to-default",
@@ -213,7 +225,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 85300,
+      "version": 1
     },
     {
       "id": "ar-default-to-recv",
@@ -267,7 +281,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 72273,
+      "version": 1
     },
     {
       "id": "el-invoke",
@@ -291,7 +307,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 32707,
+      "version": 1
     },
     {
       "id": "tx-invoke",
@@ -320,7 +338,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-invoke",
-      "originalText": "Call behavior.invoke()\n(invoke_result_visitor, msg)"
+      "originalText": "Call behavior.invoke()\n(invoke_result_visitor, msg)",
+      "seed": 23907,
+      "version": 1
     },
     {
       "id": "ar-behavior-to-invoke",
@@ -373,7 +393,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 36001,
+      "version": 1
     },
     {
       "id": "el-impl",
@@ -397,7 +419,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 66450,
+      "version": 1
     },
     {
       "id": "tx-impl",
@@ -426,7 +450,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-impl",
-      "originalText": "behavior_impl\niterate cases_ tuple"
+      "originalText": "behavior_impl\niterate cases_ tuple",
+      "seed": 81233,
+      "version": 1
     },
     {
       "id": "ar-invoke-to-impl",
@@ -479,7 +505,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 78486,
+      "version": 1
     },
     {
       "id": "el-dispatch0",
@@ -503,7 +531,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 66579,
+      "version": 1
     },
     {
       "id": "tx-dispatch0",
@@ -532,7 +562,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-dispatch0",
-      "originalText": "case[0]: dispatch(handler0)\n(fold expression)"
+      "originalText": "case[0]: dispatch(handler0)\n(fold expression)",
+      "seed": 19164,
+      "version": 1
     },
     {
       "id": "ar-impl-to-dispatch0",
@@ -585,7 +617,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 65415,
+      "version": 1
     },
     {
       "id": "el-fold-anno",
@@ -609,7 +643,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 10713,
+      "version": 1
     },
     {
       "id": "tx-fold-anno",
@@ -638,7 +674,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-fold-anno",
-      "originalText": "(dispatch(case0) || dispatch(case1) || ...)"
+      "originalText": "(dispatch(case0) || dispatch(case1) || ...)",
+      "seed": 76816,
+      "version": 1
     },
     {
       "id": "el-param-type",
@@ -662,7 +700,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 92620,
+      "version": 1
     },
     {
       "id": "tx-param-type",
@@ -691,7 +731,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-param-type",
-      "originalText": "Handler param type?"
+      "originalText": "Handler param type?",
+      "seed": 41149,
+      "version": 1
     },
     {
       "id": "ar-dispatch0-to-param",
@@ -744,7 +786,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 25698,
+      "version": 1
     },
     {
       "id": "el-exact-match",
@@ -768,7 +812,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 10474,
+      "version": 1
     },
     {
       "id": "tx-exact-match",
@@ -797,7 +843,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-exact-match",
-      "originalText": "(T1, T2, ...) typed handler:\ntype_id_list\nexact match?"
+      "originalText": "(T1, T2, ...) typed handler:\ntype_id_list\nexact match?",
+      "seed": 87173,
+      "version": 1
     },
     {
       "id": "ar-param-to-exact",
@@ -850,7 +898,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 53443,
+      "version": 1
     },
     {
       "id": "el-typed-view",
@@ -874,7 +924,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 1916,
+      "version": 1
     },
     {
       "id": "tx-typed-view",
@@ -903,7 +955,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-typed-view",
-      "originalText": "Construct typed_message_view"
+      "originalText": "Construct typed_message_view",
+      "seed": 65816,
+      "version": 1
     },
     {
       "id": "ar-exact-to-view",
@@ -956,7 +1010,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 48870,
+      "version": 1
     },
     {
       "id": "el-apply-args",
@@ -980,7 +1036,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 19786,
+      "version": 1
     },
     {
       "id": "tx-apply-args",
@@ -1009,7 +1067,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-apply-args",
-      "originalText": "apply_args_auto_move\n-> unpack params"
+      "originalText": "apply_args_auto_move\n-> unpack params",
+      "seed": 34224,
+      "version": 1
     },
     {
       "id": "ar-view-to-apply",
@@ -1062,7 +1122,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 19373,
+      "version": 1
     },
     {
       "id": "el-call-typed",
@@ -1086,7 +1148,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 97688,
+      "version": 1
     },
     {
       "id": "tx-call-typed",
@@ -1115,7 +1179,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-call-typed",
-      "originalText": "Call handler(t1, t2, ...)"
+      "originalText": "Call handler(t1, t2, ...)",
+      "seed": 68345,
+      "version": 1
     },
     {
       "id": "ar-apply-to-call",
@@ -1168,7 +1234,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 63076,
+      "version": 1
     },
     {
       "id": "el-handler-returns",
@@ -1192,7 +1260,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 79983,
+      "version": 1
     },
     {
       "id": "tx-handler-returns",
@@ -1221,7 +1291,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-handler-returns",
-      "originalText": "Handler returns?"
+      "originalText": "Handler returns?",
+      "seed": 93888,
+      "version": 1
     },
     {
       "id": "ar-call-to-returns",
@@ -1274,7 +1346,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 44204,
+      "version": 1
     },
     {
       "id": "el-try-next-1",
@@ -1298,7 +1372,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 45857,
+      "version": 1
     },
     {
       "id": "tx-try-next-1",
@@ -1327,7 +1403,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-try-next-1",
-      "originalText": "skip -> Try next handler"
+      "originalText": "skip -> Try next handler",
+      "seed": 38617,
+      "version": 1
     },
     {
       "id": "ar-returns-to-skip",
@@ -1380,7 +1458,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 13284,
+      "version": 1
     },
     {
       "id": "el-consumed-1",
@@ -1404,7 +1484,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 56680,
+      "version": 1
     },
     {
       "id": "tx-consumed-1",
@@ -1433,7 +1515,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-consumed-1",
-      "originalText": "Process return value via visitor\n-> Message consumed"
+      "originalText": "Process return value via visitor\n-> Message consumed",
+      "seed": 61595,
+      "version": 1
     },
     {
       "id": "ar-returns-to-consumed",
@@ -1486,7 +1570,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 6893,
+      "version": 1
     },
     {
       "id": "el-try-next-2",
@@ -1510,7 +1596,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 62995,
+      "version": 1
     },
     {
       "id": "tx-try-next-2",
@@ -1539,7 +1627,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-try-next-2",
-      "originalText": "Try next handler"
+      "originalText": "Try next handler",
+      "seed": 1486,
+      "version": 1
     },
     {
       "id": "ar-exact-to-next2",
@@ -1578,7 +1668,9 @@
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 90977,
+      "version": 1
     },
     {
       "id": "el-sys-msg",
@@ -1602,7 +1694,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 62093,
+      "version": 1
     },
     {
       "id": "tx-sys-msg",
@@ -1631,7 +1725,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-sys-msg",
-      "originalText": "message (fallback)\ngeneric handler:\nIs system message?"
+      "originalText": "message (fallback)\ngeneric handler:\nIs system message?",
+      "seed": 83201,
+      "version": 1
     },
     {
       "id": "ar-param-to-sys",
@@ -1684,7 +1780,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 80510,
+      "version": 1
     },
     {
       "id": "el-cannot-consume",
@@ -1708,7 +1806,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 18256,
+      "version": 1
     },
     {
       "id": "tx-cannot-consume",
@@ -1737,7 +1837,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-cannot-consume",
-      "originalText": "Cannot consume\n-> return false"
+      "originalText": "Cannot consume\n-> return false",
+      "seed": 32826,
+      "version": 1
     },
     {
       "id": "ar-sys-to-cannot",
@@ -1790,7 +1892,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 81750,
+      "version": 1
     },
     {
       "id": "el-handler-msg",
@@ -1814,7 +1918,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 94343,
+      "version": 1
     },
     {
       "id": "tx-handler-msg",
@@ -1843,7 +1949,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-handler-msg",
-      "originalText": "Call handler(msg)\n-> Message consumed"
+      "originalText": "Call handler(msg)\n-> Message consumed",
+      "seed": 14330,
+      "version": 1
     },
     {
       "id": "ar-sys-to-msg",
@@ -1896,7 +2004,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 88303,
+      "version": 1
     },
     {
       "id": "el-more-handlers",
@@ -1920,7 +2030,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 47963,
+      "version": 1
     },
     {
       "id": "tx-more-handlers",
@@ -1949,7 +2061,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-more-handlers",
-      "originalText": "More handlers left?"
+      "originalText": "More handlers left?",
+      "seed": 36005,
+      "version": 1
     },
     {
       "id": "ar-try1-to-more",
@@ -2014,7 +2128,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 63324,
+      "version": 1
     },
     {
       "id": "ar-try2-to-more",
@@ -2067,7 +2183,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 59915,
+      "version": 1
     },
     {
       "id": "el-dispatch-n",
@@ -2091,7 +2209,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 28264,
+      "version": 1
     },
     {
       "id": "tx-dispatch-n",
@@ -2120,7 +2240,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-dispatch-n",
-      "originalText": "case[n]: dispatch(handler_n)"
+      "originalText": "case[n]: dispatch(handler_n)",
+      "seed": 50583,
+      "version": 1
     },
     {
       "id": "ar-more-to-dispatchn",
@@ -2173,7 +2295,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 54417,
+      "version": 1
     },
     {
       "id": "ar-dispatchn-loop",
@@ -2223,7 +2347,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 81193,
+      "version": 1
     },
     {
       "id": "el-not-consumed",
@@ -2247,7 +2373,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 18458,
+      "version": 1
     },
     {
       "id": "tx-not-consumed",
@@ -2276,7 +2404,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-not-consumed",
-      "originalText": "Message not consumed\n-> stays in mailbox"
+      "originalText": "Message not consumed\n-> stays in mailbox",
+      "seed": 80498,
+      "version": 1
     },
     {
       "id": "ar-more-to-not-consumed",
@@ -2329,7 +2459,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 5936,
+      "version": 1
     },
     {
       "id": "el-next-msg",
@@ -2353,7 +2485,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 78608,
+      "version": 1
     },
     {
       "id": "tx-next-msg",
@@ -2382,7 +2516,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-next-msg",
-      "originalText": "Actor processes next message"
+      "originalText": "Actor processes next message",
+      "seed": 49581,
+      "version": 1
     },
     {
       "id": "ar-consumed1-to-next",
@@ -2447,7 +2583,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 100202,
+      "version": 1
     },
     {
       "id": "ar-handler-msg-to-next",
@@ -2500,7 +2638,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 58052,
+      "version": 1
     },
     {
       "id": "el-has-timeout",
@@ -2524,7 +2664,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 86951,
+      "version": 1
     },
     {
       "id": "tx-has-timeout",
@@ -2553,7 +2695,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-has-timeout",
-      "originalText": "Has timeout definition?"
+      "originalText": "Has timeout definition?",
+      "seed": 1621,
+      "version": 1
     },
     {
       "id": "ar-next-to-timeout",
@@ -2606,7 +2750,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 4306,
+      "version": 1
     },
     {
       "id": "el-timeout",
@@ -2630,7 +2776,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 84635,
+      "version": 1
     },
     {
       "id": "tx-timeout",
@@ -2659,7 +2807,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-timeout",
-      "originalText": "timeout() returns duration\n-> schedule handle_timeout()"
+      "originalText": "timeout() returns duration\n-> schedule handle_timeout()",
+      "seed": 29256,
+      "version": 1
     },
     {
       "id": "ar-has-to-timeout",
@@ -2712,7 +2862,9 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 65579,
+      "version": 1
     },
     {
       "id": "el-wait",
@@ -2736,7 +2888,9 @@
       "boundElements": [],
       "updated": 1,
       "link": null,
-      "locked": false
+      "locked": false,
+      "seed": 86612,
+      "version": 1
     },
     {
       "id": "tx-wait",
@@ -2765,7 +2919,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "el-wait",
-      "originalText": "Wait indefinitely"
+      "originalText": "Wait indefinitely",
+      "seed": 60557,
+      "version": 1
     },
     {
       "id": "ar-has-to-wait",
@@ -2818,12 +2974,16 @@
         "gap": 0
       },
       "startArrowhead": null,
-      "endArrowhead": "arrow"
+      "endArrowhead": "arrow",
+      "seed": 36433,
+      "version": 1
     }
   ],
   "appState": {
     "gridSize": 20,
-    "viewBackgroundColor": "#ffffff"
+    "viewBackgroundColor": "#ffffff",
+    "theme": "light",
+    "currentItemFontFamily": 1
   },
   "files": {}
 }
